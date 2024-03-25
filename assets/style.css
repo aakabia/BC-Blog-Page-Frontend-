@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(159, 224, 249);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    background-image: url("../assets/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(159, 224, 249);
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(222, 198, 167);
+    height: 350px;
+    width: 100%;
+    align-items: center;
+
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.title1{
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+.title2{
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.userinfo{
+    width: 70%;
+    height: 25px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.content{
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.content-area{
+    height: 150px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.button{
+    border: solid 2px black;
+    border-radius: 25px;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    
+
+}
+
+
+@media(min-width:450px){
+
+    .userinfo{
+        width:250px;
+    }
+
+
+}
+
+@media(min-width:700px){
+    .content-area{
+        width: 500px;
+    }
+
+    .header{
+        background-size: 800px;
+        background-position: center;
+        color: rgb(244, 177, 84);
+        
+        
+        
+    }
+
+}
+
+
+@media(min-width:800px){
+    .header{
+        background-size: 1200px;
+
+    }
+}
+
+@media(min-width:1200px){
+    .header{
+        background-size: 1500px;
+
+    }
+}
+
+
+@media(min-width:1500px){
+    .header{
+        background-size: 1700px;
+        
+        
+        
+        
+
+    }
+}
+
+
+/* styled the page and added media queries to adjust as screen grows larger*/
