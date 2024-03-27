@@ -25,6 +25,8 @@ header{
 main{
     height: 400px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .myinfo{
