@@ -4,34 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="A-icon" href="assets/icon.png" />
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Our First Blog Page!</title>
   </head>
 
   <body>
     <header class="header">
       <div class="title1">
-        <h1>Writing With Passion! </h1>
+        <h1>Writing With Passion!</h1>
       </div>
     </header>
 
     <main>
-        <div class="title2">
-            <h2>What's On Your Mind?</h2>
-        </div>
-      <form action="blog.html" target="_blank" name="create-blog">
-        <input type="text" placeholder="Username" id=""  class="userinfo"/>
-        <input type="text" placeholder="Title" id="" class="userinfo"/>
-        <label for="content-area" name="Content" class="content">Content Area:</label>
+      <div class="title2">
+        <h2>What's On Your Mind?</h2>
+      </div>
+      <form action="blog.html"   name ="create-blog"  id="clearblog">
+        <input
+          type="text"
+          placeholder="Username"
+          id="Username"
+          class="userinfo"
+        />
+        <input
+          type="text"
+          placeholder="Title"
+          id="blog-title"
+          class="userinfo"
+        />
+        <label for="content-area" name="Content" class="content"
+          >Content Area:</label
+        >
         <textarea type="text" id="content-area" class="content-area"></textarea>
-        <button type="submit" class="button">Post Now!</button>
-        
+        <button type="submit" class="button" id="submit-Button">
+          Post Now!
+        </button>
       </form>
-
     </main>
-<!-- added a header, and a main. Also made a form within the main.-->
+    <!-- added a header, and a main. Also made a form within the main.-->
     <footer>
-        <h3>@Copyright by Aziz kabia</h3>
+      <h3>@Copyright by Aziz kabia</h3>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
